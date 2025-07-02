@@ -208,3 +208,49 @@ footer{
 .foot-sec{
     margin-left: 7%;
 }
+
+
+/*-------------media queries--------------------*/
+
+@media screen and (width<650px) {
+    .foot-sec {
+    margin-left: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    justify-content: end;
+    width: 100%;
+    
+}
+.cont{
+    width: 70%;
+   
+    
+}
+.header{
+    width: 100vw;
+    justify-content: space-between;
+}
+.heading h1{
+    
+    margin-left: 5%;    
+}
+.heading h2{
+    margin-left: 20%;
+    margin-top: 1%;    
+    
+}
+.heading input{
+    
+    width: 25%;
+    
+}
+}

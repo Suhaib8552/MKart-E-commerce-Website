@@ -141,7 +141,7 @@ function displayProducts(filteredProducts) {
     document.getElementById("item-list").innerHTML = filteredProducts.map((item) => {
         var { image, title, price, id } = item;
         return (
-            `<div class="box">
+            `<div class="box" style="height:400px;width:300px;">
                 <div class="img-box">
                     <img class="images" src="${image}" alt="${title}">
                 </div>
